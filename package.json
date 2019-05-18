@@ -8,8 +8,13 @@
     "lint": "tslint --project tsconfig.json",
     "start": "tsc && node lib\\index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Cameron Sjo"
+  },
+  "repository": {
+    "url": "https://github.com/cameron-sjo/node-typescript-template"
+  },
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.0.0",
     "tslint": "^5.16.0",
